@@ -3,11 +3,11 @@ import { StyleSheet, Text, View, Image } from 'react-native';
 import Logo from '../components/logo'
 import Form from '../components/forms'
 
-const Login = () => {
+const SignUp = () => {
     return(
         <View style={styles.container}>
             <Logo />
-            <Form style={{marginTop: 20}} page={'Register'} />
+            <Form style={{marginTop: 20}} page={'Login'} />
             
         </View>
     )

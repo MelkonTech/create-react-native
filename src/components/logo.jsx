@@ -7,21 +7,19 @@ const Logo = () => {
             <Image 
                 style={{width: 190, height: 50}}
                 source={require('../img/logo.png')} />
-                <Text style={styles.logoText}>Login Doccure</Text>
         </View>
     )
 }
 
 const styles = StyleSheet.create({
     container: {
-      alignItems: 'center',
-      marginBottom: 50,
-      marginTop: 20
-      
+        alignItems: 'center',
+        marginBottom: 50,
+        marginTop: 10,
+        backgroundColor: 'white',
+        width: '100%'
     },
-    logoText: {
-        fontSize: 18,
-    }
+    
   });
 
 export default Logo
